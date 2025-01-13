@@ -1,9 +1,11 @@
 #include<iostream>
 #include<libstd.h>
+#include<pic 16F887A>
+
 int main (){
     in Total=100
     int *pul = k;
-    floqt Sum=incc[i];
+    float Sum=incc[i];
     Porcc=sum
 
     char *p=files;
