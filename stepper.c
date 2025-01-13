@@ -1,6 +1,6 @@
 /***********************
  FILE NAME:        stepper.c
- CHIP TYPE         AT89C51
+ CHIP TYPE:        AT89C51
  CLOCK FREQUENCY:  12MZ
  IDE:              VSMStudio
  COMPILER:         IAR for 8051
@@ -34,14 +34,14 @@
         {
             i = i<8 ? i+1 : 0;
             out_port = sequence[i];
-            delay(50);
+            delay_ms(50);
         }
         //Haz the reverse keybeen preissent ?
         else if (!key_rev)
         {
             i = i>0 ? i-1 : 7;
             out_port = sequence[i];
-            delay_m(50);
+            delayms(50);
         }
     }
  }
