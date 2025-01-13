@@ -34,7 +34,7 @@
         {
             i = i<8 ? i+1 : 0;
             out_port = sequence[i];
-            delay_ms(50);
+            delayms(50);
         }
         //Haz the reverse keybeen preissent ?
         else if (!key_rev)
